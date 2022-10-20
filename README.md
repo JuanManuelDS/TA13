@@ -66,7 +66,7 @@ Ostenta(<b>código_cargo</b>, <b>puerta</b>, fecha_posesión)<br/>
 Anotación (<b>código_anotación</b>, fecha, importe)<br/>
 Ingreso_recibo (<b><ins>código_anotación</ins></b>, mes, pagado, puerta)<br/>
 Ingreso_extra (<b><ins>código_anotación</ins></b>, concepto)<br/>
-Gasto_fijo (<b><ins>código_anotación</ins></b>, fecha_inicio, fecha_fin, consumo, código_tipo_gasto)<br/>
+Gasto_fijo (<b><ins>código_anotación</ins></b>, fecha_inicio, fecha_fin, consumo, <ins>código_tipo_gasto</ins>)<br/>
 Gasto_variable (<b><ins>código_anotación</ins></b>, fecha_facturación, concepto, número_factura)<br/>
 Tipo_gasto_fijo (<b>código_tipo_gasto</b>, nombre, descripción)<br/>
 Detalle_recibo (<b>número_línea</b>, concepto, importe, <b><ins>código_anotación</ins></b>)<br/>
