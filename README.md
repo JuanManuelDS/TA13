@@ -1,7 +1,5 @@
 # TA13
 
-•
-
 - Primary key: <b>negrita</b>
 - Foreign key: <ins>subrayado</ins>
 
