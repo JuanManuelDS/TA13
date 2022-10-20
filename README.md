@@ -1,7 +1,7 @@
 # TA13
 
 -	Primary key: <b>negrita</b>
--	Foreign key: <u>subrayado</u>
+-	Foreign key: <ins>subrayado</ins>
 
 ## •	Ejercicio 1<br/>
 Atleta (<b>numero_dorsal</b>, nombre, <u>dorsal_reemplazo</u>)<br/>
