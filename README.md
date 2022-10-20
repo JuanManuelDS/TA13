@@ -48,7 +48,7 @@ Fondo (<b>titulo</b>, <b>autor</b>, cantidad) <br/>
 ## • Ejercicio 6 <br/>
 
 Cliente (<b>cod_cliente</b>)<br/>
-Pedido (<b>cod_pedid</b>o, fecha_pedido, <ins>cod_cliente</ins>, <ins>cod_producto, num_unidades</ins>)<br/>
+Pedido (<b>cod_pedido</b>, fecha_pedido, <ins>cod_cliente</ins>, <ins>cod_producto</ins>, num_unidades)<br/>
 Producto (<b>cod_producto</b>, cantidad, <ins>cod_proveedor</ins>, unidades, fecha_encargo)<br/>
 Proveedor (<b>cod_proveedor</b>)<br/>
 
