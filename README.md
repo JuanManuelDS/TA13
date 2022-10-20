@@ -10,7 +10,7 @@ Atleta (<b>numero_dorsal</b>, nombre, <ins>dorsal_reemplazo</ins>)<br/>
 ## • Ejercicio 2<br/>
 
 Elemento (<b>nombre_elemento</b>¸peso_atómico, símbolo, num_atómico)<br/>
-Compuesto_por(<b>nombre_compuesto</b>, nombre_elemento, proporción)<br/>
+Compuesto_por(<b>nombre_compuesto</b>, <b>nombre_elemento</b>, proporción)<br/>
 Gaseoso (<b>nombre_compuesto</b>, estado, coef_expansion, temp_lic)<br/>
 Líquido (<b>nombre_compuesto</b>, estado, densidad, temperatura_evaporacion)<br/>
 Sólido (<b>nombre_compuesto</b>, estado, color, olor, dureza)<br/>
@@ -29,7 +29,7 @@ Parque_bomberos (<b>cod_parque</b>, nombre, dirección, teléfono, categoría)<b
 Coche (<b>num_coche</b>, <b><ins>cod_parque</ins></b>, marca, modelo, num_matrícula, fecha_compra, fecha_ult_rev)<br/>
 Bombero (<b>cod_bombero</b>, <ins>cod_parque</ins>, <ins>cod_turno</ins>, nombre, apellidos, fecha_nac, DNI, dirección, teléfono, puesto, <ins>cod_equipo</ins>)<br/>
 Trabaja_en (<b><ins>cod_bombero</ins></b>, <b><ins>fecha_inicio</ins></b>, <b><ins>fecha_fin</ins></b>)<br/>
-Turno (<b>cod_turno, descripción</b>)<br/>
+Turno (<b>cod_turno</b>, descripción)<br/>
 Período (<b>fecha_inicio</b>, <b>fecha_fin</b>, <ins>cod_turno</ins>)<br/>
 Petición_servicio (<b>cod_pet_serv</b>, tipo_serv, grado_urgencia, <ins>cod_equipo</ins>)<br/>
 Recibe (<b><ins>cod_parque</ins></b>, <b><ins>cod_pet_serv</ins></b>, fecha, hora)<br/>
