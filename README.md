@@ -15,7 +15,7 @@ Sólido (<b>nombre_compuesto</b>, estado, color, olor, dureza)<br/>
 
 •	Ejercicio 3
 Sucursal (<b>num_surcursal</b>, ciudad, activo)<br/>
-Cliente (<b>DNI, <b><u>num_surcursal</u></b>, nombre, apellidos, dirección, ciudad)<br/>
+Cliente (<b>DNI</b>, <b><u>num_surcursal</u></b>, nombre, apellidos, dirección, ciudad)<br/>
 Cuenta (<b>num_cuenta</b>, <b><u>num_surcursal</u></b>, saldo)<br/>
 Abrir (<b><u>num_cuenta</u></b>, <b><u>DNI</u></b>)<br/>
 Transacción (<b>num_transacción</b>, <b><u>num_cuenta</u></b>, fecha, tipo_operación, cantidad)<br/>
